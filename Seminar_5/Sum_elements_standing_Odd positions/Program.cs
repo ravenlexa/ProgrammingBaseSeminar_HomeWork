@@ -9,13 +9,12 @@ int SumOddPsition(int[] array)
         if (i % 2 != 0)
         {
             SumOdd = SumOdd + array[i];
-            i++;
         }
     }
     return SumOdd;
 }
 
-int[] array = new int [11];
+int[] array = new int [10];
 for (int i = 0; i < array.Length; i++)
 {
     array[i] = new Random().Next(10, 99);
