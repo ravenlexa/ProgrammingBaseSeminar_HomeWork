@@ -24,7 +24,7 @@ double AverageColumn(int[,] array)
         {
             sum = sum + array[j, i];
         }
-        Console.WriteLine(Math.Round(sum / array.GetLength(1), 2));
+        Console.WriteLine(Math.Round(sum / array.GetLength(0), 4));
         sum = 0;
     }
     return sum;    
