@@ -51,5 +51,5 @@ Console.WriteLine();
 FillArray(array);
 Console.WriteLine();
 int minRow =  SearchMinSumRow(array);
-System.Console.WriteLine("Строка номер : " + minRow);
+Console.WriteLine("Строка номер : " + minRow);
 
